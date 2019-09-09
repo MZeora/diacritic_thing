@@ -106,4 +106,5 @@ let final_words = args['_'].map((string) => {
     //if(is_test) console.log(string);
     return string;
 });
-console.log(final_words.join(" "));
+console.log(`${args['_'].join(" ")} = ${final_words.join(" ")}`);
+return final_words;
